@@ -21,7 +21,7 @@ Built for redirect and proxy landing pages. Each visitor hits the endpoint once,
 
 ---
 
-Live example: [`https://xy.snowx.dev/`](https://xy.snowx.dev/)
+⭐ Live example: [`https://xy.snowx.dev/`](https://xy.snowx.dev/)
 
 ---
 
@@ -284,6 +284,7 @@ routes = [
 ```
 
 ### 4. Secrets (optional but recommended for full reputation)
+All API keys are free when you register 🔥🔥
 
 ```bash
 npx wrangler secret put AbuseIPDBKey
@@ -307,6 +308,8 @@ curl -sS "https://xy.snowx.dev/?t=$(date +%s%3N)"
 ---
 
 ## Configuration
+
+For the API keys, just register accounts, and use free tier.  
 
 | Variable               | Default  | Description                            |
 | ---------------------- | -------- | -------------------------------------- |
