@@ -1,0 +1,3 @@
+# Copy to .dev.vars for local `npm run dev` (never commit .dev.vars)
+# PROTECTION_MODE=strict
+# API_TOKEN=your-local-dev-token

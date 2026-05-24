@@ -1,0 +1,20 @@
+name = "proxy-api-checker"
+main = "src/index.ts"
+compatibility_date = "2024-08-01"
+
+# Copy this file to wrangler.toml (gitignored) and fill in KV namespace IDs.
+#   cp wrangler.toml.example wrangler.toml
+
+routes = [
+  { pattern = "xy.snowx.dev/*", zone_name = "snowx.dev" }
+]
+
+[vars]
+PROTECTION_MODE = "off"
+ABUSEIPDB_LISTED_MIN = "25"
+CACHE_TTL_SECONDS = "604800"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "YOUR_KV_NAMESPACE_ID"
+preview_id = "YOUR_PREVIEW_KV_NAMESPACE_ID"
