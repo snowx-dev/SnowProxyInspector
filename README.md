@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://i.ibb.co/V0gYNdkJ/cf-proxy.png" alt="Description" width="500" />
+</p>
+
+
+
 <h1 align="center">Snow Proxy Inspector</h1>
 
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://developers.cloudflare.com/workers/)
@@ -5,7 +11,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/License-AGPL--3.0-blue?style=for-the-badge)](LICENSE)
 
-**A tiny Cloudflare Worker that tells visitors who they are: IP, geo, ASN, and whether they look sketchy on a few reputation lists.**
+**A tiny Cloudflare Worker that tells visitors their IP, geo, ASN, latency and reputation.**
 
 Built for redirect and proxy landing pages. Each visitor hits the endpoint once, gets JSON back, and repeat visits stay fast thanks to per-IP caching.
 
