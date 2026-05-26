@@ -252,7 +252,7 @@ npx wrangler login
 
 The repo ships `wrangler.toml.example` only. `wrangler.toml` is gitignored so your KV IDs and local edits stay off GitHub. Wrangler reads `wrangler.toml` for `dev`, `deploy`, and `secret put`.
 
-Edit `wrangler.toml` before deploy: set `routes` / `zone_name` for your domain, then paste KV ids after step 1 below.
+Rename `wrangler.toml.example` to `wrangler.toml` and edit it before deploy: set `routes` / `zone_name` for your domain, then paste KV ids after step 1 below.
 
 ### 1. KV namespace
 
